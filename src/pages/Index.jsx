@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Paw, Heart } from "lucide-react";
+import { Dog, Heart } from "lucide-react";
 
 const dogBreeds = [
   { name: "Labrador Retriever", description: "Friendly and outgoing" },
@@ -16,7 +16,7 @@ const Index = () => {
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8">
         <h1 className="text-4xl font-bold mb-2 flex items-center justify-center">
-          <Paw className="mr-2" /> Doggopedia <Paw className="ml-2" />
+          <Dog className="mr-2" /> Doggopedia <Dog className="ml-2" />
         </h1>
         <p className="text-xl text-gray-600">Your ultimate guide to man's best friend</p>
       </header>
